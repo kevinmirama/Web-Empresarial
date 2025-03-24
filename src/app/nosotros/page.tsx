@@ -1,4 +1,4 @@
-import Link from 'next/link';
+
 
 export default function Nosotros() {
   return (
@@ -133,9 +133,9 @@ export default function Nosotros() {
         <div className="bg-blue-700 text-white p-8 rounded-lg text-center">
           <h2 className="text-2xl font-bold mb-4">¿Quieres formar parte de nuestro equipo?</h2>
           <p className="text-lg mb-6">Estamos siempre en búsqueda de talento apasionado por la tecnología y la innovación.</p>
-          <Link href="/contacto" className="bg-white text-blue-700 hover:bg-gray-100 font-bold py-3 px-8 rounded-lg inline-block">
+          <a href="/contacto" className="bg-white text-blue-700 hover:bg-gray-100 font-bold py-3 px-8 rounded-lg inline-block"></a>
             Enviar CV
-          </Link>
+          
         </div>
       </div>
     </div>
